@@ -1,18 +1,19 @@
 # getkulala.net
 
-This is the source code for [getkulala.net](https://getkulala.net).
+This is the source code for
+the [kulala website](https://kulala.app).
 
 ## Developing
 
 Once you've cloned the project and
-installed dependencies with `bun install --frozen-lockfile`,
+installed dependencies with `vp install --frozen-lockfile`,
 start a development server:
 
 ```sh
-bun run dev
+vp run dev
 
 # or start the server and open the app in a new browser tab
-bun run dev -- --open
+vp run dev --open
 ```
 
 ## Building
@@ -20,7 +21,7 @@ bun run dev -- --open
 To create a production version of this app:
 
 ```sh
-bun run build
+vp run build
 ```
 
-You can preview the production build with `bun run preview`.
+You can preview the production build with `vp run preview`.
